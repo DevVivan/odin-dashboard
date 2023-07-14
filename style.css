@@ -129,6 +129,7 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
+        box-shadow: 0 3px 10px 0px var(--clr-700);
     }
 
     .header-button {
@@ -144,6 +145,40 @@ body {
         gap: 20px;
         justify-content: center;
         margin-left: 20px;
+    }
+
+    .search-bar {
+        border: 2px solid var(--clr-300);
+        width: 50vh;
+        height: 35px;
+        display: flex;
+        border-radius: 50px;
+        padding: 1px;
+    }
+
+    .search-bar-input {
+        flex-grow: 1;
+        font-size: 15px;
+        padding-left: 20px;
+        border: 0;
+        background-color: var(--clr-700);
+        background: transparent;
+        color: var(--clr-100);
+    }
+
+    .search-bar-input:focus {
+        outline: 0;
+    }
+
+    .search-bar-submit {
+        cursor: pointer;
+        font-size: 15px;
+        height: 35px;
+        width: 35px;
+        border: 2px solid var(--clr-300);
+        color: var(--clr-300);
+        background-color: var(--clr-700);
+        border-radius: 100vh;
     }
 
     .main-content {
