@@ -127,6 +127,7 @@ body {
         margin: 20px;
         position: fixed;
         display: flex;
+        gap: 5vh;
         flex-direction: row;
         align-items: center;
         box-shadow: 0 3px 10px 0px var(--clr-700);
@@ -149,7 +150,7 @@ body {
 
     .search-bar {
         border: 2px solid var(--clr-300);
-        width: 50vh;
+        width: 70vh;
         height: 35px;
         display: flex;
         border-radius: 50px;
@@ -175,10 +176,30 @@ body {
         font-size: 15px;
         height: 35px;
         width: 35px;
-        border: 2px solid var(--clr-300);
+        border: none;
         color: var(--clr-300);
         background-color: var(--clr-700);
         border-radius: 100vh;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .header-icon {
+        width: 25px;
+        fill: var(--clr-300);
+    }
+
+    .toggle-button {
+        border: none;
+        outline: none;
+        background: none;
+        cursor: pointer;
+        font-size: 23px;
+        color: var(--clr-300);
     }
 
     .main-content {
@@ -196,6 +217,27 @@ body.dark {
 
     .sidebar {
         background-color: var(--clr-900);
+    }
+
+    .sidebar-title, 
+    .sidebar-logo-svg {
+        color: var(--clr-100);
+        fill: var(--clr-100);
+    }
+
+    .sidebar-subheading, 
+    .sidebar-svg {
+        color: var(--clr-300);
+        fill: var(--clr-300);
+    }
+
+    .sidebar-hr {
+        background-color: var(--clr-300);
+    }
+
+    .content, 
+    .header {
+        background-color: var(--clr-100);
     }
 }
 

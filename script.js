@@ -1,4 +1,4 @@
-// let toggleButton = document.querySelector('.toggle');
+// let toggleButton = document.querySelector('.toggle-button');
 
 // toggleButton.addEventListener('click', () => {
 //     document.body.classList.toggle('dark');
