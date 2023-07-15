@@ -244,6 +244,13 @@ body {
         grid-template-rows: 0.5fr 8fr;
     }
 
+    .project-title {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 18px;
+        color: var(--clr-900);
+    }
+
     .project-container {
         height: 200px;
         width: 290px;
