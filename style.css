@@ -266,6 +266,26 @@ body {
         border-radius: 10px;
     }
 
+    .update-title {
+        color: var(--clr-900);
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .update {
+        font-size: 13px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        color: var(--clr-700);
+    }
+
+    .update-hr {
+        width: 32vh;
+        outline: none;
+        border: 0.5px solid var(--clr-700);
+    }
+
     .project-icon {
         width: 25px;
         fill: var(--clr-700);
