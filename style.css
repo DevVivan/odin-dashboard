@@ -208,7 +208,7 @@ body {
     }
 
     .main-content-header {
-        font-size: 30px;
+        font-size: 25px;
         color: var(--clr-content-header);
         font-weight: 300;
     }
