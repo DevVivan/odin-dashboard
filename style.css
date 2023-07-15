@@ -223,6 +223,12 @@ body {
         grid-row: 2 / 3;
     }
 
+    .updates-container {
+        display: grid;
+        grid-template-rows: 0.5fr 8fr;
+        height: 80vh;
+    }
+
     .projects-container {
         grid-row: span 2;
         display: grid;
