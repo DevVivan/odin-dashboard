@@ -216,24 +216,11 @@ body {
     .projects-header {
         margin-left: 10vh;
         grid-row: span 1;
-        border: 2px solid red;
     }
 
     .projects-list {
         margin-left: 10vh;
         grid-row: 2 / 3;
-        border: 2px solid red;
-    }
-
-    .updates-header {
-        grid-column: 2 / 3;
-        grid-row: span 1;
-        border: 2px solid red;
-    }
-
-    .updates-list {
-        grid-row: 2 / 3;
-        border: 2px solid red;
     }
 
     .projects-container {
