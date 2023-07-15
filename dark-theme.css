@@ -21,7 +21,7 @@
     grid-area: 1 / 1 / 3 / 2;
     overflow-y:hidden;
     overflow-x:hidden;
-    background-color: var(--clr-700);
+    background-color: var(--clr-900);
     padding-top: 10px;
 }
 
@@ -43,7 +43,7 @@
 
 .sidebar-logo-svg {
     width: 50px;
-    fill: var(--clr-950);
+    fill: var(--clr-100);
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -55,7 +55,7 @@
 .sidebar-title {
     font-size: 30px;
     font-weight: bold;
-    color: var(--clr-950);
+    color: var(--clr-100);
     margin-top: 10px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -72,7 +72,7 @@
 .sidebar-subheading {
     font-size: 20px;
     font-weight: 500;
-    color: var(--clr-900);
+    color: var(--clr-300);
     padding-left: 5px;
     opacity: 0.9;
     cursor: pointer;
@@ -95,21 +95,21 @@
 
 .sidebar-svg {
     width: 33px;
-    fill: var(--clr-900);
+    fill: var(--clr-300);
     opacity: 0.9;
 }
 
 .sidebar-hr {
     width: 270px;
     height: 2px;
-    background-color: var(--clr-950);
+    background-color: var(--clr-100);
     border: none;
     opacity: 0.9;
 }
 
 .header {
     grid-area: 1 / 2 / 2 / 3;
-    background-color: var(--clr-100);
+    background-color: var(--clr-900);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,14 +120,14 @@
 .content {
     grid-area: 1 / 2 / 3 / 3;
     overflow:scroll;
-    background-color: var(--clr-100);
+    background-color: var(--clr-700);
 }   
 
 .header-container {
     grid-area: 1 / 2 / 2 / 3;
     height: 13vh;
     width: 65rem;
-    background-color: var(--clr-700);
+    background-color: var(--clr-900);
     border-radius: 10px;
     margin: 20px;
     margin-left: 35px;
@@ -139,7 +139,7 @@
 }
 
 .header-button {
-    background-color: var(--clr-700);
+    background-color: var(--clr-900);
     outline: none;
     font-size: 20px;
     color: var(--clr-300);
@@ -168,7 +168,7 @@
     font-size: 15px;
     padding-left: 20px;
     border: 0;
-    background-color: var(--clr-700);
+    background-color: var(--clr-900);
     background: transparent;
     color: var(--clr-100);
 }
@@ -184,7 +184,7 @@
     width: 35px;
     border: none;
     color: var(--clr-300);
-    background-color: var(--clr-700);
+    background-color: var(--clr-900);
     border-radius: 100vh;
 }
 
@@ -210,7 +210,7 @@
 
 .main-content-header {
     font-size: 25px;
-    color: var(--clr-content-header);
+    color: var(--clr-100);
     font-weight: 300;
 }
 
@@ -249,26 +249,26 @@
     margin-left: 20px;
     margin-top: 10px;
     font-size: 18px;
-    color: var(--clr-950);
+    color: var(--clr-100);
 }
 
 .project-desc {
     margin: 20px 20px;
-    color: var(--clr-900);
+    color: var(--clr-300);
     font-size: 13px;
 }
 
 .project-container {
     height: 190px;
     width: 290px;
-    background-color: var(--clr-300);
+    background-color: var(--clr-900);
     box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.5);
-    border-left: 6.5px solid var(--clr-700);
+    border-left: 6.5px solid var(--clr-300);
     border-radius: 10px;
 }
 
 .update-title {
-    color: var(--clr-900);
+    color: var(--clr-100);
     padding-top: 15px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -278,18 +278,19 @@
     font-size: 13px;
     padding-left: 20px;
     padding-bottom: 20px;
-    color: var(--clr-700);
+    padding-right: 20px;
+    color: var(--clr-300);
 }
 
 .update-hr {
     width: 32vh;
     outline: none;
-    border: 0.5px solid var(--clr-700);
+    border: 0.5px solid var(--clr-100);
 }
 
 .project-icon {
     width: 25px;
-    fill: var(--clr-700);
+    fill: var(--clr-300);
     display: flex;
     flex-direction: column;
 }
@@ -301,7 +302,7 @@
 }
 
 .updates {
-    background-color: var(--clr-300);
+    background-color: var(--clr-900);
     height: 95vh;
     margin-bottom: 5vh;
     width: 290px;
