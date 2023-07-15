@@ -219,8 +219,17 @@ body {
     }
 
     .projects-list {
+        margin-top: 30px;
         margin-left: 10vh;
         grid-row: 2 / 3;
+        display: grid;
+        gap: 50px;
+        column-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .updates-list {
+        margin-top: 30px;
     }
 
     .updates-container {
@@ -235,12 +244,29 @@ body {
         grid-template-rows: 0.5fr 8fr;
     }
 
+    .project-container {
+        height: 200px;
+        width: 290px;
+        background-color: var(--clr-300);
+        box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.5);
+        border-left: 6.5px solid var(--clr-700);
+        border-radius: 10px;
+    }
+
+    .updates {
+        background-color: var(--clr-300);
+        height: 95vh;
+        margin-bottom: 5vh;
+        width: 290px;
+        border-radius: 10px;
+    }
+
     .main-content {
         margin-top: 170px;
         height: 80vh;
         display: grid;
         grid-template-rows: 0.5fr 8fr; 
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 3fr 1.2fr;
     }
 }
 
