@@ -253,6 +253,7 @@ body {
 
     .project-desc {
         margin: 20px 20px;
+        color: var(--clr-900);
         font-size: 13px;
     }
 
