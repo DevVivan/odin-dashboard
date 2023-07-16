@@ -9,20 +9,28 @@ This was the `dashboard` project, the [*7th project*](https://www.theodinproject
 
 ## What did this project teach me?
 
+I tried some new things with this project, including utilising a dark and light theme for my page and some cool grid layouts.
+
 ### HTML
 
-- Creating forms
-  - Form control elements
-  - Form styling
-  - Form validation
+- HTML search forms
+- Usage of SVGs and icons
+- The `<hr>` tag for line breaks
 
 ### CSS
 
-- Layering using `z-index`
-- Position properties in CSS
-- Utilising custom properties
-- Using a CSS reset
-- Flexbox knowledge recap
+- CSS Grid
+  - Basic grid layouts
+  - Grid advanced properties
+  - Grid gap
+- Creating separate stylesheets for dark and light theme
+- Font weight
+- Using external fonts
+- Custom properties
+
+### JavaScript
+
+- Toggling between stylesheets with JavaScript
 
 ## Images
 
