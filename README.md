@@ -28,6 +28,3 @@ This was the `dashboard` project, the [*7th project*](https://www.theodinproject
 
 <img src="screenshots/screenshot-1.png">
 <img src="screenshots/screenshot-2.png">
-
-
-https://devvivan.github.io/odin-dashboard/
